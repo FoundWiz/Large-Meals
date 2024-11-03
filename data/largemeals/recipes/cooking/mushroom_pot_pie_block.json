@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 250,
+  "experience": 1.5,
+  "ingredients": [
+    {
+      "item": "farmersdelight:brown_mushroom_colony"
+    },
+    {
+      "tag": "forge:raw_chicken"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "farmersdelight:pie_crust"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "largemeals:mushroom_pot_pie_block"
+  }
+}

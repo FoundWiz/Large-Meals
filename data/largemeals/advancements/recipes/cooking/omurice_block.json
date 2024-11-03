@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:rice",
+              "minecraft:chicken",
+              "farmersdelight:chicken_cut",
+              "minecraft:egg",
+              "minecraft:milk_bucket",
+              "farmersdelight:milk_bottle",
+              "minecraft:carrot",
+              "farmersdelight:cabbage",
+              "farmersdelight:cabbage_leaf"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "largemeals:cooking/omurice_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_any_ingredient",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "largemeals:cooking/omurice_block"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:bacon",
+              "farmersdelight:rice",
+              "farmersdelight:cabbage",
+              "farmersdelight:cabbage_leaf",
+              "minecraft:carrot",
+              "farmersdelight:onion"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "largemeals:cooking/hearty_lunch"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_any_ingredient",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "largemeals:cooking/hearty_lunch"
+    ]
+  }
+}

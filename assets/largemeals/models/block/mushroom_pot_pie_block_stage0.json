@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"2": "largemeals:block/pot_pie_side",
+		"3": "largemeals:block/mushroom_pot_pie_top",
+		"tray_top": "farmersdelight:block/tray_top",
+		"tray_side": "farmersdelight:block/tray_bottom",
+		"particle": "largemeals:block/mushroom_pot_pie_top"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"faces": {
+				"north": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"east": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"south": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"west": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#tray_top"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#tray_side", "cullface": "down"}
+			}
+		},
+		{
+			"name": "pie",
+			"from": [2, 2, 2],
+			"to": [14, 6, 14],
+			"faces": {
+				"north": {"uv": [2, 12, 14, 16], "texture": "#2"},
+				"east": {"uv": [2, 12, 14, 16], "texture": "#2"},
+				"south": {"uv": [2, 12, 14, 16], "texture": "#2"},
+				"west": {"uv": [2, 12, 14, 16], "texture": "#2"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3"}
+			}
+		}
+	]
+}

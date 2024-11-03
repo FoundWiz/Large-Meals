@@ -1,0 +1,51 @@
+{
+  "parent": "farmersdelight:main/craft_knife",
+  "criteria": {
+    "raw_mutton_rack": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "largemeals:raw_mutton_rack"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cooked_mutton_rack": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "largemeals:cooked_mutton_rack"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "largemeals.advancement.get_mutton_rack.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "largemeals:raw_mutton_rack"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "largemeals.advancement.get_mutton_rack"
+    }
+  },
+  "requirements": [
+    [
+      "raw_mutton_rack",
+      "cooked_mutton_rack"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

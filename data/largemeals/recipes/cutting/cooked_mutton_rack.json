@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "largemeals:cooked_mutton_rack"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "farmersdelight:cooked_mutton_chops"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
