@@ -1,0 +1,60 @@
+1.1.0 Changelogs
+*Additions
+Added a proper loot table for Omurice.
+Added a new achievement.
+Added food item effect tooltips.
+*Changes
+Retextured all items and block.
+Changed some food recipes.
+Balanced every food items.
+
+1.2.0 Changelogs
+*Additions
+New meals: Red Soup, Potato Soup, Mushroom Pot Pie (can be sliced with a knife to get Mushroom Pot Pie Slice), Sweet Berry Custard
+*Updates
+Retextured Cod Deluxe.
+Changed Cod Deluxe recipe.
+Retextured Cod Surprise.
+Changed Cod Surprise recipe.
+Retextured Hearty Lunch.
+Changed Hearty Lunch recipe.
+Retextured Omurice.
+Retextured Bowl of Omurice.
+Redesigned the Omurice model.
+Changed Omurice recipe.
+Balanced some food values.
+*Fixes
+Fixed Cod Surprise recipe conflicts with the default recipe for Cabbage Rolls.
+Fixed Omurice being uncraftable.
+*Translations
+Added:
+vi_vn (Translated by FoundWiz)
+ko_kr (Translated by NEWW0RID)
+zh_cn (Translated by ChirenCQR)
+*Removals
+Removed Mushroom Omelette.
+Removed Milk Chicken.
+Removed the Cook Lunch achievement.
+
+1.3.0 Changelogs
+*Additions
+New meals: Tomato Egg Soup, Chicken Curry, Pasta with Mushroom Sauce, Roasted Mutton Rack(Use bowl to get Plate of Roasted Mutton Rack)
+New food items: Raw/Cooked Mutton Rack (Obtain by killing a sheep with a knife)
+New advancement: Sheep Butcher
+*Updates
+Redesigned the Mushroom Pot Pie models
+Retextured Cod Deluxe.
+Retextured Omurice.
+Changed some recipes.
+Balanced some food values.
+Cleaned some codes.
+*Fixes
+Added a proper loot table for Omurice.
+*Translations
+Updated:
+vi_vn (Translated by FoundWiz)
+Removed:
+ko_kr
+zh_cn
+*Removals
+Removed Cod Surprise.
